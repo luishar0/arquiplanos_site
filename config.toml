@@ -42,7 +42,7 @@ url = "http://arquiplanos-mx.web.app/"
 [params.author]
   avatar = "logoVertical.png" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
-  intro = "ArquiPlanos Blog"
+  intro = ""
   name = "Luis Haro"
   description = "Un blog sobre arquitectura y diseño de interiores."
 
