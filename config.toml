@@ -1,0 +1,62 @@
+title = "ArquiPlanos blog"
+baseURL = 'https://www.arquiplanos.mx/'
+languageCode = 'es-MX'
+defaultContentLanguage = 'es'
+#title = 'ArquiPlanos'
+theme = 'hugo-blog-awesome'
+
+enableEmoji = true
+
+# set markup.highlight.noClasses=false to enable code highlight
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark.renderer]
+    unsafe = true
+
+
+[params]
+sitename = "ArquiPlanos"
+defaultColor = "dark" # set default color mode: dark or light
+description = "Blog"
+
+[menu]
+[[menu.main]] 
+# The page reference (pageRef) is useful for menu highlighting
+# When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
+pageRef="/"
+name = 'Home'
+url = '/'
+weight = -250
+[[menu.main]]
+pageRef="posts"
+name = 'Blog'
+url = '/posts/'
+weight = -240
+[[menu.main]]
+name = "Cotizar"
+weight = -10
+identifier = "repository"
+url = "http://arquiplanos-mx.web.app/"
+
+[params.author]
+  avatar = "logoVertical.png" # put the file in assets folder; also ensure that image has same height and width
+  # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
+  intro = "ArquiPlanos Blog"
+  name = "Luis Haro"
+  description = "Un blog sobre arquitectura y diseño de interiores."
+
+[[params.socialIcons]]
+name = "email"
+url = "mailto:arquiplanos-mx@outlook.com"
+
+[[params.socialIcons]]
+name = "instagram"
+url = "https://instagram.com"
+
+[[params.socialIcons]]
+name = "facebook"
+url = "https://www.facebook.com/profile.php?id=100090903262881"
+
+
+
