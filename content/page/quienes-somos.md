@@ -1,5 +1,5 @@
 ---
-title: Quienes Somos
+title: ¿Quiénes Somos?
 description: apasionados por la arquitectura
 date: 2023-03-15T21:54:02-06:00
 menu: main
