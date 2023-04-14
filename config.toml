@@ -1,5 +1,5 @@
 title = "ArquiPlanos blog"
-baseURL = 'https://www.arquiplanos.mx/'
+baseURL = 'https://luishar0.github.io/arquiplanos_site/'
 languageCode = 'es-MX'
 defaultContentLanguage = 'es'
 #title = 'ArquiPlanos'
