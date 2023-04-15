@@ -19,8 +19,8 @@ tags:
 
 ### Una vez que hayas ingresado: 
 Es importante que nos proporciones tu número de WhatsApp para poder comunicarnos contigo de manera efectiva.  
-Si otro agente te ha referido a nosotros, asegúrate de ingresar su código de referencia para que podamos darte los créditos correspondientes.  
-Finalmente, necesitamos que nos proporciones tu número de cuenta CLABE, para que podamos enviarte las comisiones que ganes con nosotros de manera rápida y segura. 
+Si otro agente te ha referido a nosotros, asegúrate de ingresar su código de referencia para que podamos darle los créditos correspondientes.  
+Finalmente, necesitamos que nos proporciones tu número de cuenta CLABE, para que podamos enviarte las comisiones que generes con nosotros de manera rápida y segura. 
 
 ![](../../images/agente-registro/datos.png)
 
