@@ -11,7 +11,7 @@ tags:
 ---
 ![](../../images/agent1.png)
 
-# ¿Eres un agente de bienes raíces que busca mejorar tus ingresos? 
+# ¿Eres un agente de bienes raíces que busca mejorar sus ingresos? 
 ### Tenemos una solución para ti. 
 
 Ofrecemos una comisión por recomendar nuestro servicio de diseño arquitectónico personalizado a tus clientes.

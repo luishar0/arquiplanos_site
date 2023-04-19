@@ -1,5 +1,5 @@
 ---
-title: "¿Cómo se Registra un Agentes Inmobiliario?"
+title: "¿Cómo se Registra un Agente Inmobiliario?"
 date: 2023-04-12T23:01:56-06:00
 authors: ["luisharo"]
 
