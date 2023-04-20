@@ -2,8 +2,9 @@ title = "ArquiPlanos blog"
 baseURL = '/arquiplanos_site'
 languageCode = 'es-MX'
 defaultContentLanguage = 'es'
-#title = 'ArquiPlanos'
 theme = 'hugo-blog-awesome'
+image = '../../images/logo2.png'
+
 
 enableEmoji = true
 

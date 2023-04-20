@@ -2,7 +2,8 @@
 title: "Agentes Inmobiliarios"
 date: 2023-04-05T23:01:56-06:00
 authors: ["luisharo"]
-
+description: ¿Eres un agente de bienes raíces que busca mejorar sus ingresos? 
+ogimage: "../../images/agent1.png"
 tags:
   - agentes
   - arquitectura
@@ -11,7 +12,7 @@ tags:
 ---
 ![](../../images/agent1.png)
 
-# ¿Eres un agente de bienes raíces que busca mejorar sus ingresos? 
+# ¿Eres un agente de bienes raíces que busca mejorar sus ingresos?
 ### Tenemos una solución para ti. 
 
 Ofrecemos una comisión por recomendar nuestro servicio de diseño arquitectónico personalizado a tus clientes.
