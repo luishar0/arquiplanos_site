@@ -19,9 +19,9 @@
     <meta property="article:published_time" content={{ $ISO_date | safeHTML }} />
 
     {{ with.Params.author }}
-    <meta property="og:article:author" content="{{humanize . }}" />
-    <meta property="article:author" content="{{humanize . }}" />
-    <meta name="author" content="{{humanize . }}" />
+    <meta property="og:article:author" content="{{ . }}" />
+    <meta property="article:author" content="{{ . }}" />
+    <meta name="author" content="{{ . }}" />
     {{ end }}
 
     {{ with.Params.category }}
@@ -36,7 +36,7 @@
         "headline": {{ .Title }},
         "author": {
         "@type": "Person",
-        "name": "{{ .Site.Params.github }}"
+        "name": "{{ .Site.Params.author.name }}"
         },
         "datePublished": "{{ dateFormat "2006-01-02" .Date }}",
         "description": {{ .Description }},
@@ -45,7 +45,7 @@
         "dateModified": "{{ dateFormat "2006-01-02" .Lastmod }}",
         "image": {
         "@type": "imageObject",
-        "url": "{{ with .Params.image }}{{ .Permalink }}{{ end }}"
+        "url": "{{ with .Params.image }}{{ . }}{{ end }}"
         },
         "publisher": {
         "@type": "Organization",

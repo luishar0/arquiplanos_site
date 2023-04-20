@@ -31,14 +31,14 @@
   <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.LanguageName }}" />
 {{ end }}
 
-<!-- {{ with .Params.image }}
+{{ with .Params.image }}
   <meta itemprop="image" content="{{ . | absURL }}" />
   <meta property="og:image" content="{{ . | absURL }}" />
   <meta name="twitter:image" content="{{ . | absURL }}" />
   <meta name="twitter:image:src" content="{{ . | absURL }}" />
-{{ else }} -->
+{{ else }}
   <meta itemprop="image" content="{{ .Site.Params.ogimage | absURL }}" />
   <meta property="og:image" content="{{ .Site.Params.ogimage | absURL }}" />
   <meta name="twitter:image" content="{{ .Site.Params.ogimage | absURL }}" />
   <meta name="twitter:image:src" content="{{ .Site.Params.ogimage | absURL }}" />
-<!-- {{ end }} -->
+{{ end }}

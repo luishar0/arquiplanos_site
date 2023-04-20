@@ -3,7 +3,7 @@ baseURL = '/arquiplanos_site'
 languageCode = 'es-MX'
 defaultContentLanguage = 'es'
 theme = 'hugo-blog-awesome'
-image = '../../images/logo2.png'
+
 
 
 enableEmoji = true
@@ -19,7 +19,8 @@ enableEmoji = true
 [params]
 sitename = "ArquiPlanos"
 defaultColor = "dark" # set default color mode: dark or light
-description = "Blog"
+#description = "Blog"
+ogimage = '../../images/logo2.png'
 
 [menu]
 [[menu.main]] 

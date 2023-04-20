@@ -1,9 +1,11 @@
 ---
 title: "Agentes Inmobiliarios"
 date: 2023-04-05T23:01:56-06:00
-authors: ["luisharo"]
+author: 'Luis Haro'
 description: ¿Eres un agente de bienes raíces que busca mejorar sus ingresos? 
-ogimage: "../../images/agent1.png"
+image: 'https://luishar0.github.io/arquiplanos_site/images/agent1.png'
+
+
 tags:
   - agentes
   - arquitectura
