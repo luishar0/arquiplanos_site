@@ -20,6 +20,7 @@
   {{- $description = trim .Site.Params.description "\n" -}}
 {{- end -}}
 
+<meta name="og:url" content="{{ .Permalink }}">
 <meta name="description" content="{{ $description }}">
 <meta itemprop="description" content="{{ $description }}" />
 <meta property="og:description" content="{{ $description }}" />
